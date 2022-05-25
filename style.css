@@ -1,0 +1,428 @@
+a{
+	text-decoration: none;
+}
+
+.page_accueil{
+	margin: 0px;
+	padding: 0px;
+	width : 100% ;
+	height: 100vh;
+	background-color: #99cffc ;
+}
+
+.page_accueil_section_accueil{
+	width: 100%;
+	height: 100%;
+	background-image: url(fondprincipal.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.page_accueil_section_accueil_ul {
+	background-color: #99cffc;
+	list-style: none;
+	margin : 0;
+}
+
+.page_accueil_section_accueil_li{
+	display: table-cell;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: Arial;
+	font-size: 21px ;
+	width: 10%;
+
+	color: black;
+	background-color: #ffffff;
+	border: 3px ridge #663e18;
+	transition-duration: 0.3s;
+}
+
+.page_accueil_section_accueil_li:hover{
+	color : white;
+	background-color: #cda076;
+
+}
+
+
+.page_accueil_section_accueil_sous_section_1_titre_citations{
+	background-color : rgba(110, 251, 104, 0.6);
+	transition-duration: 0.4s;
+}
+
+.page_accueil_section_accueil_sous_section_1_titre_citations:hover{
+	background-color : rgba(110, 251, 104, 0.8);
+}
+
+.page_accueil_section_accueil_titre{
+	font-size : 50px ;
+	text-align: center;
+	margin-top: 200px;
+	color: white; ;
+	text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.page_accueil_section_accueil_citations{
+	font-size : 25px ;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	color: white; 
+	text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.page_accueil_all_sections{
+	background-color: white;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 4px;
+	padding-right: 4px;
+	border-radius: 3px;
+}
+
+.box {
+  display: flex;
+  align-items: stretch;
+}
+   
+
+.page_accueil_section_RE_resume{
+	font-family: Arial;
+	padding-left: 10px;
+}
+
+.page_accueil_section_RE_image{
+	padding-left: 20px;
+	padding-right: 10px;
+	float: right;
+}
+
+
+
+
+
+.page_accueil_section_RE {
+    background: linear-gradient(-45deg, #eaff92, #d7ff92, #f8ff92, #00ff17);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+
+    margin-top: 10px;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: 4px;
+		padding-right: 4px;
+		border-radius: 3px;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+
+    }
+
+
+
+
+
+.page_accueil_section_citoyens{
+    background: linear-gradient(-45deg, #92a3ff, #00a6ff, #0028ff, #00ff17);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+
+    margin-top: 10px;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: 4px;
+		padding-right: 4px;
+		border-radius: 3px;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+
+    }
+
+
+
+
+
+.page_accueil_section_pb{
+	background-color: #ff9292;
+	   background: linear-gradient(-45deg, #ff9292, #ba2222, #ff0000, #ff7000);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+
+    margin-top: 10px;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: 4px;
+		padding-right: 4px;
+		border-radius: 3px;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+
+    }
+}
+
+.page_accueil_section_RE_titre, .page_accueil_section_accueil_citoyens_titre, .page_accueil_section_pb_titre{
+	font-size : 40px ;
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: black; 
+	text-shadow: black 0.05em 0.05em 0.1em
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page_accueil_footer{
+	background-color: #373737;
+}
+
+.page_accueil_section_footer_Info_site{
+	background-color: white;
+	border-radius: 5px;
+	width: 10%;
+	padding-left: 10px;
+	margin-left: 10px;
+}
+
+
+
+.body_construit{
+	background-image: url(fond_jaune.png);
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.nav_sepa_consruit{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.titre_article{
+	margin-top: -5px;
+	padding-left: 5px;
+}
+
+
+.section_nav_construit{
+	background-color: #99948c;
+}
+
+.section_nav_construit_0{
+	background-color: #a1984b;
+	font-size: 30px;
+	text-align: center;
+	transition-duration: 0.5s;
+}
+
+.section_nav_construit_0:hover {
+	background-color: #C6B73B;
+	font-size: 30px;
+	text-align: center;
+}
+
+.section_nav_construit_1{
+	background-color: #7ea14b;
+	font-size: 30px;
+	text-align: center;
+	transition-duration: 0.5s
+}
+
+.section_nav_construit_1:hover {
+	background-color: #8fc73e;
+	font-size: 30px;
+	text-align: center;
+}
+
+.section_nav_construit_2{
+	background-color: #77819c;
+	font-size: 30px;
+	text-align: center;
+	transition-duration: 0.5s
+}
+
+.section_nav_construit_2:hover {
+	background-color: #4f6fc7;
+	font-size: 30px;
+	text-align: center;
+}
+
+.section_nav_construit_3{
+	background-color: #9c7777;
+	font-size: 30px;
+	text-align: center;
+	transition-duration: 0.5s
+}
+
+.section_nav_construit_3:hover {
+	background-color: #cb5050;
+	font-size: 30px;
+	text-align: center;
+}
+
+.bannniere_construit_AC{
+    
+    height: 200px;
+    border-radius: 5px;
+    background: url('AC_image_haut.jpg') no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.bannniere_construit_RE{
+    
+    height: 200px;
+    border-radius: 5px;
+    background: url('RE_image_haut.jpg') no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.bannniere_construit_CT{
+    
+    height: 200px;
+    border-radius: 5px;
+    background: url('CT_image_haut.jpg') no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.bannniere_construit_RP{
+    
+    height: 200px;
+    border-radius: 5px;
+    background: url('RP_image_haut.jpg') no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+
+.bannniere_description_construit{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.8%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgba(24,24,24,0.8);
+    color: white;
+    font-size: 1.1em;
+    
+}
+
+.section_global_construit{
+	display: flex;
+    margin-bottom: 20px;
+}
+
+
+.section_image_construit{
+    
+    position: relative;
+    background-color: #706b64;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+}
+
+.img_section_construite{
+	width: 300px;
+	height : 300px;
+}
+.img_source_section_construite{
+	width: 300px;
+	height: 150px;
+}
+
+.article_construit{
+	font-family: "Arial";
+	text-align: justify;
+	margin-right: 10px;
+    margin-left: 15px;
+}
+
+
+
+.footer_construit{
+	background-color: #484642;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    margin-top: -22px;
+}
+
+.header_construit{
+	background-color: #918b82;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;	
+}
+
+.sous_tire_CT{
+	margin-left: 20px;
+}
